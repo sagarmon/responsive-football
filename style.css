@@ -93,7 +93,7 @@ li a:hover:not(.active) {
   font-size: 16px;
   background-color: rgb(221, 49, 110);
   border: 0;
-  padding: 10px 16px 10px 14px;
+  padding: 12px 16px 12px 14px;
 }
 
 .half-width .fas.fa-arrow-right {
@@ -101,4 +101,39 @@ li a:hover:not(.active) {
 }
 /* ----------------------------
     Top Banner Container end 
+------------------------------*/
+
+/* ----------------------------
+    Players section start 
+------------------------------*/
+.players-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top: 60px;
+  padding-left: 150px;
+  padding-right: 140px;
+  margin-bottom: 100px;
+}
+
+.players-container p {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.player {
+  width: 280px;
+  height: 474px;
+  margin: 10px;
+  padding: 12px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.player-image-layout {
+  width: 280px;
+  height: 245px;
+}
+/* ----------------------------
+    Players section end 
 ------------------------------*/
