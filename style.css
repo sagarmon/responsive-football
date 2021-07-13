@@ -60,9 +60,9 @@ li a:hover:not(.active) {
     header part end 
 -----------------------*/
 
-/* ---------------------
-    Top Banner start 
------------------------*/
+/* -------------------------------
+    Top Banner Container start
+--------------------------------*/
 .top-banner-container {
   display: flex;
   color: white;
@@ -70,7 +70,7 @@ li a:hover:not(.active) {
   padding-left: 170px;
   padding-right: 70px;
   padding-bottom: 70px;
-  background-color: rgb(45, 44, 158);
+  background-color: rgb(46, 43, 157);
 }
 
 .half-width {
@@ -91,7 +91,7 @@ li a:hover:not(.active) {
   text-decoration: none;
   color: white;
   font-size: 16px;
-  background-color: rgb(222, 49, 110);
+  background-color: rgb(221, 49, 110);
   border: 0;
   padding: 10px 16px 10px 14px;
 }
@@ -99,3 +99,6 @@ li a:hover:not(.active) {
 .half-width .fas.fa-arrow-right {
   padding-left: 8px;
 }
+/* ----------------------------
+    Top Banner Container end 
+------------------------------*/
