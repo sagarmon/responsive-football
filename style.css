@@ -137,3 +137,29 @@ li a:hover:not(.active) {
 /* ----------------------------
     Players section end 
 ------------------------------*/
+
+/* ----------------------------
+    Footer start 
+------------------------------*/
+#footer-container {
+  display: block;
+  margin-bottom: 70px;
+}
+
+#footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 383px;
+}
+
+.social-links a i {
+  font-size: 22px;
+  color: gray;
+  margin-right: 10px;
+}
+
+/* ----------------------------
+    Footer end 
+------------------------------*/
