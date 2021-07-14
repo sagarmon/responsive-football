@@ -6,13 +6,17 @@ body {
 /* ----------------------
     header part start 
 ------------------------*/
-/* header {
+header {
   background-color: rgb(45, 44, 158);
   color: white;
 }
 
 nav ul {
   display: flex;
+  margin-top: 20px;
+  /* align-items: center; */
+  justify-content: center;
+  position: absolute;
 }
 
 nav li {
@@ -41,20 +45,28 @@ ul {
   width: 100%;
 }
 
-li {
+/* li {
   float: left;
-}
+} */
 
 li a {
   display: block;
   text-align: center;
-  padding: 15px 50px;
+  /* padding: 5px 50px; */
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
   background-color: rgb(222, 49, 110);
-} */
+}
+
+#login {
+  background-color: rgb(222, 49, 110);
+}
+
+.fa-sign-in-alt {
+  padding-right: 10px;
+}
 
 /* ---------------------
     header part end 
@@ -236,3 +248,119 @@ li a:hover:not(.active) {
 /* ----------------------------
     Footer end 
 ------------------------------*/
+
+/* ----------------------------
+    Media Queries start
+------------------------------*/
+@media only screen and (max-width: 688px) {
+  /* top-banner start */
+  .top-banner-container {
+    display: block;
+  }
+
+  .half-width {
+    width: 100%;
+  }
+
+  .half-width img {
+    width: 250px;
+    padding-top: 40px;
+    padding-right: 80px;
+  }
+
+  .half-width h1 {
+    font-size: 40px;
+  }
+
+  .half-width img:hover {
+    transform: translate(-50px, -70px) rotate(20deg) skewX(20deg);
+    transition: transform 2.5s;
+  }
+  /* top-banner end */
+
+  /* players section start */
+  .players-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 60px;
+    padding-left: 150px;
+    padding-right: 140px;
+    margin-bottom: 100px; */
+  }
+
+  .players-container p {
+    font-size: 10px;
+    font-weight: 200;
+  }
+
+  .player {
+    /* width: 280px; */
+    width: 140px;
+    /* height: 474px; */
+    height: 350px;
+    /* margin: 10px; */
+    /* padding: 12px; */
+    box-shadow: 1px 1px 5px gray;
+  }
+
+  .player-image-layout {
+    width: 140px;
+    height: 123px;
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+  /* players section end */
+
+  /* news section start */
+  #news-section {
+    box-shadow: none;
+    padding-left: 70px;
+  }
+  .news-container {
+    display: block;
+  }
+  .news-item {
+    width: 75%;
+    box-shadow: none;
+  }
+
+  /* news section end */
+
+  /* teams section start */
+  #teams-section {
+    box-shadow: none;
+  }
+  /* teams section end */
+
+  /* footer section start */
+  #footer-container {
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  #footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 383px;
+  }
+
+  .social-links {
+    margin-left: 70px;
+  }
+
+  .social-links a i {
+    font-size: 22px;
+    color: gray;
+    /* margin-right: 10px; */
+  }
+
+  #footer-p {
+    text-align: center;
+    margin-left: 70px;
+  }
+  /* footer section end */
+}
