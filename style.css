@@ -68,6 +68,10 @@ li a:hover:not(.active) {
   padding-right: 10px;
 }
 
+span {
+  padding-right: 270px;
+}
+
 /* ---------------------
     header part end 
 -----------------------*/
