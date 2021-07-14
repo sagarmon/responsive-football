@@ -3,9 +3,9 @@ body {
   margin: 0;
 }
 
-/* ----------------------
+/* ---------------------------
     header part start 
-------------------------*/
+----------------------------*/
 header {
   background-color: rgb(45, 44, 158);
   color: white;
@@ -14,7 +14,6 @@ header {
 nav ul {
   display: flex;
   margin-top: 20px;
-  /* align-items: center; */
   justify-content: center;
   position: absolute;
 }
@@ -45,14 +44,9 @@ ul {
   width: 100%;
 }
 
-/* li {
-  float: left;
-} */
-
 li a {
   display: block;
   text-align: center;
-  /* padding: 5px 50px; */
   text-decoration: none;
 }
 
@@ -72,9 +66,9 @@ span {
   padding-right: 270px;
 }
 
-/* ---------------------
+/* -----------------------------
     header part end 
------------------------*/
+------------------------------*/
 
 /* -------------------------------
     Top Banner Container start
@@ -286,12 +280,6 @@ span {
   .players-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    margin-top: 60px;
-    padding-left: 150px;
-    padding-right: 140px;
-    margin-bottom: 100px; */
   }
 
   .players-container p {
@@ -300,20 +288,14 @@ span {
   }
 
   .player {
-    /* width: 280px; */
     width: 140px;
-    /* height: 474px; */
     height: 350px;
-    /* margin: 10px; */
-    /* padding: 12px; */
     box-shadow: 1px 1px 5px gray;
   }
 
   .player-image-layout {
     width: 140px;
     height: 123px;
-    /* margin: 0; */
-    /* padding: 0; */
   }
   /* players section end */
 
@@ -359,7 +341,6 @@ span {
   .social-links a i {
     font-size: 22px;
     color: gray;
-    /* margin-right: 10px; */
   }
 
   #footer-p {
@@ -368,3 +349,7 @@ span {
   }
   /* footer section end */
 }
+
+/* ----------------------------
+    Media Queries end
+------------------------------*/
