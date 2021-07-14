@@ -99,6 +99,12 @@ li a:hover:not(.active) {
 .half-width .fas.fa-arrow-right {
   padding-left: 8px;
 }
+
+.half-width img:hover {
+  transform: translate(-50px, -70px) rotate(20deg) skewX(20deg);
+  transition: transform 2.5s;
+}
+
 /* ----------------------------
     Top Banner Container end 
 ------------------------------*/
@@ -141,7 +147,6 @@ li a:hover:not(.active) {
 /* ----------------------------
     news section start 
 ------------------------------*/
-
 #news-section {
   /* margin: 40px 70px 150px 70px; */
   padding-top: 20px;
