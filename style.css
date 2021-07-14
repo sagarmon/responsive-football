@@ -141,6 +141,7 @@ li a:hover:not(.active) {
 /* ----------------------------
     news section start 
 ------------------------------*/
+
 #news {
   font-size: 50px;
   text-align: center;
@@ -176,6 +177,21 @@ li a:hover:not(.active) {
 }
 /* ----------------------------
     news section end 
+------------------------------*/
+
+/* ----------------------------
+    teams section start 
+------------------------------*/
+#teams-section {
+  margin-bottom: 150px;
+}
+
+.teams-container img {
+  width: 90%;
+  padding-left: 50px;
+}
+/* ----------------------------
+    teams section end 
 ------------------------------*/
 
 /* ----------------------------
